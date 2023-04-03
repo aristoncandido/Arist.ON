@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+
+
+}
+.logo{
+margin-bottom: 5%;
+ 
+   
+  
+}
+.logo img{
+    width: 160px; height: 90px;
+   
+}
+.logo img:hover{
+    filter: drop-shadow(0px 0px 25px cyan);
+    transition: 0.2s;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+.cabeca{
+    color: white;
+    padding-bottom: 8%;
+    border-bottom: 1px solid cyan;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 2%;
+    height: 7rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+  margin-right: 15%;
+    padding-right: 10%;
+    list-style: none;
+    margin-top: 15%;
+    font-size: 15pt;
+
+
+    width: 250%;
+    
+    
+}
+
+.menu li{
+    cursor: pointer;
+    color: white;
+}
+.menu li:hover{
+
+ filter: drop-shadow(0px 0px 10px cyan);
+ transition: 0.2s;
+
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./imgs/backmain.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+   
+
+}
+
+main button{
+    width: 7%;
+    border-radius: 5pt;
+    border: 0;
+    height: 10%;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    background-image: linear-gradient(to top, rgb(1, 94, 94), black);
+}
+main .foto{
+    width: 900px;
+    height: 400px;
+    position: relative;
+    top: -10%;
+    filter:drop-shadow(0px 0px 50px cyan);
+}
